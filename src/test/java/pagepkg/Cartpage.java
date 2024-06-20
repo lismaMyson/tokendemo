@@ -33,7 +33,7 @@ public class Cartpage {
 	
 	
 	
-	public Cartpage(WebDriver driver) {//constructor
+	public Cartpage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
